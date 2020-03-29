@@ -515,8 +515,8 @@
     background-color: #fff;
     box-shadow: 0px 3px 12px -2px rgb(209, 209, 209);
     padding-top: 30px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 18px;
+    padding-right: 20px;
     padding-bottom: 7px;
 }
 .count:hover {
@@ -532,17 +532,17 @@
 }
 
 .count h3 {
-    font-size: 10px;
+    font-size: 9px;
     font-family: public sans, sans-serif;
-    border-bottom: 1px solid rgb(221, 221, 221);
-    padding-bottom: 6px;
+    border-bottom: 2px solid rgb(233, 223, 223);
+    padding-bottom: 15px;
     color: #787878;
 }
 
 .ul-details li {
     list-style: none;
     display: inline;
-    padding-right: 35px;
+    padding-right: 20px;
     font-size: 12px;
 }
 
@@ -582,9 +582,9 @@
     display: block!important;
     width: 100%!important;
     margin-bottom: 10px;
-    margin-top: 40px;
-    padding-top: 10px!important;
-    padding-bottom: 10px!important;
+    margin-top: 50px;
+    padding-top: 12px!important;
+    padding-bottom: 12px!important;
 }
 
 .btn-start-now:hover {
@@ -622,7 +622,7 @@
 
 .uni-pad {
     margin-top: 60px;
-    border: 12px solid rgba(0, 0, 0, 0.3);
+    /* border: 12px solid rgba(0, 0, 0, 0.3); */
     padding-bottom: 0px!important;
     margin-bottom: 0px!important;
 }
@@ -630,6 +630,8 @@
 .uni {
     background-image: url('../image/post.png');
     /* background-position: 20% 80%; */
+    padding-top: 30px;
+    padding-bottom: 200px;
     
 }
 
@@ -706,7 +708,7 @@
         font-size: 11px;
         font-family: public sans, sans-serif;
         letter-spacing: 2;
-        color: green;
+        color: #82b61a;
     }
 
     .mock-sub {
@@ -728,10 +730,10 @@
         font-family: public sans, sans-serif;
         font-weight: bold;
     }
-/* 
-    .login-continue {
-        padding-top: 30px;
-    } */
+.form-check-input {
+    color: green!important;
+    cursor: pointer;
+}
 
     .login-continue a {
         background-color: white;
@@ -759,7 +761,209 @@
 
 
     /* mock ends here */
+
+
+   /* jsce starts here */
+.entrance-ul li {
+    display: inline;
+    list-style: none;
+    padding-left: 10px!important;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1;
+    color: grey;
     
+}
+.entrance-1 {
+    border: 1px solid rgb(219, 214, 214);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+.entrance-1:hover{
+    box-shadow: 0px 3px 12px -2px rgb(168, 166, 166);
+}
+
+.entrance-ul {
+    padding-left: 0px!important;
+}
+.entrance h2 {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1;
+    color: rgb(163, 157, 157);
+    margin-bottom: 30px;
+    margin-left: 35px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(226, 224, 224);
+}
+
+.entrance-ul .fa {
+    font-size: 20px;
+    /* max-width: 100%; */
+    color: grey;
+}
+
+.common2 .fa {
+    font-size: 40px;
+    color: #94b71d;
+    padding-top: 15px;
+}
+
+.entrance h3 {
+    padding-top: 30px;
+    font-size: 18px;
+    letter-spacing: 1;
+    color: #82b61a;
+}
+
+.entrance h4 {
+    font-size: 10px;
+    /* padding-left: 5px; */
+    color: #979595;
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid grey; */
+    /* margin-bottom: 20px; */
+   
+}
+
+
+.commonent {
+    border-top: 1px solid rgb(233, 231, 231);
+    margin-left: 10px;
+}
+
+.e1 li {
+    padding-right: 50px!important;
+}
+
+.centrance {
+    /* padding-right: 40px; */
+    padding-left: 70px;
+}
+
+.centrance1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.btn-take-a-test {
+    font-weight: 500;
+    letter-spacing: 1;
+    border: 1px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 40px 120px;
+    margin-left: 15px;
+    box-shadow: 0px 3px 12px -2px rgb(168, 166, 166);
+}
+
+.btn-take-a-test:hover {
+    background-color: #94b71d;
+    color: white;
+}
+
+.common-entrance {
+    padding-top: 50px;
+    background-color: rgb(243, 240, 240);
+}
+   /* jsce ends here */
+
+    /* SCHOOL OF NURSING
+    COMMON ENTRANCE
+    ENTRANce */
+    
+
+     /* jamb-mock starts here */
+
+     .green {
+         border: 1px solid #82b61a;
+         background-color: #82b61a;
+         padding: 15px 10px;
+     }
+
+     .mock-jamb h2 {
+         text-align: center;
+         padding-top: 50px;
+         padding-bottom: 50px;
+     }
+
+     .supply {
+         font-size: 20px;
+         font-weight: bold;
+         font-family: public sans sans-serif;
+         letter-spacing: 1;
+     }
+
+     .mobile {
+        font-size: 12px;
+        font-weight: bold;
+        font-family: public sans sans-serif;
+        padding-top: 10px;
+     }
+
+    .jamb-mock li {
+         list-style: none;
+         text-align: center;
+     }
+
+     .continue-btn {
+         text-align: center;
+         /* background-color: green; */
+         
+     }
+
+     .btn-continue {
+       border: 1px solid #82b61a;
+       background-color: #82b61a;
+       padding: 10px 40px;
+       font-size: 18px;
+       font-weight: bold;
+       color: white;
+       margin-bottom: 20px;
+       letter-spacing: 2;
+     }
+
+     .btn-continue:hover {
+         color: white;
+     }
+
+     .phone {
+         max-width: 65%;
+         text-align: center!important;
+         padding-left: 450px;
+         /* padding-right: 30px; */
+     }
+
+     .mock-jamb {
+        border: 1px solid white;
+        background-color: white;
+    
+     }
+
+     .jamb-mock-2 {
+        padding: 70px 70px;
+        background-color: rgb(247, 241, 241);
+        }
+
+        .btm-green {
+            border-bottom: 3px solid #979595;
+         background-color: #648d11;
+         padding: 2px 2px;
+        }
+
+        .btm-white {
+            text-align: center;
+            margin-top: 30px;
+            padding-bottom: 50px;
+            padding-top: 10px;
+            border-top: 1px solid #dacece;
+            color: #777474;
+        }
+     /* jamb mock end here */
      
     @media only screen and (max-width: 768px) {
             .hid {display: none!important; 
