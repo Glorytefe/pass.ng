@@ -1,0 +1,215 @@
+/* N-POWER STARTS HERE */
+
+.ref a {
+    border: 1px solid red;
+    background-color: red;
+    padding: 15px 50px!important;
+    color: white!important;
+   
+    /* font-size: 20px; */
+    
+}
+
+.navbar-brand img {
+   max-width: 30%;
+}
+
+.navbar li {
+   font-size: 13px;
+   font-weight: 600;
+   letter-spacing: 1;
+
+}
+
+.navbar1 {
+   padding-right: 0px!important;
+
+}
+.n-power1 {
+    background-image: url('../image/intro-box-cover.jpg');
+    background-position: center;
+    background-size: 100%;
+   background-repeat: none;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.n-power2 h2 {
+    color: white;
+    text-align: center;
+    letter-spacing: 1;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.n-power2 h3 {
+    color: white;
+    text-align: center;
+    letter-spacing: 1;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.n-power3 {
+   text-align: center;
+}
+
+.n-power3 a {
+  
+   text-decoration: none;
+   border: 1px solid #82b61a;
+   background-color: #82b61a; 
+   border-radius: 50px;
+   font-size: 18px;
+   color: white;
+   padding: 15px 35px;
+   font-weight: 500;
+   
+   
+}
+
+.n-power3 {
+   margin-bottom: 100px;
+
+}
+
+.n-powerbk2 {
+    background-color: #6d8a4e;
+    /* padding-left: 30px!important; */
+    padding-bottom: 100px;
+ 
+}
+
+.n-power4 {
+   text-align: center;
+   padding-bottom: 100px;
+   color: white;
+   padding-top: 60px;
+}  
+
+.n-power5 h3 {
+   color: white;
+   font-size: 20px;  
+   font-weight: 400;  
+   letter-spacing: 1;  
+   padding-left: 15px;  
+}
+
+.n-power5 h4 {
+   color: rgb(134, 250, 18);
+   font-size: 25px;
+   letter-spacing: 2;
+   padding-left: 15px;  
+   border-bottom: 1px solid rgb(134, 250, 18);
+   padding-bottom:20px;
+   padding-right: 0px!important;
+}
+
+
+.n-power6 {
+    border-left: 1px solid rgb(134, 250, 18);
+    /* padding-right: 20px; */
+    padding-right: 0px!important;
+}
+
+.n-power6 h3 {
+    color: white;
+   font-size: 20px;  
+   font-weight: 400;  
+   letter-spacing: 1;  
+   /* padding-left: 15px;   */
+}
+
+.n-power6 h4 {
+   color: rgb(134, 250, 18);
+   font-size: 25px;
+   letter-spacing: 1;
+   /* padding-left: 15px;   */
+   border-bottom: 1px solid rgb(134, 250, 18);
+   margin-right: 20px;
+   padding-bottom:20px;
+   padding-right: 0px!important;
+}
+
+.n-power6-ul {
+   list-style: none;
+   color: white;
+   letter-spacing: 1;
+   padding-left: 0px!important;
+   padding-bottom: 25px;
+   
+}
+
+.n-power6-ul li {
+   padding-top: 15px;
+}
+
+.n-power7 a {
+       text-decoration: none;
+       border: 1px solid #82b61a;
+       background-color: #82b61a; 
+       border-radius: 30px;
+       color: white;
+       font-size: 18px;
+       padding: 15px 25px;
+       margin-left: 10px;
+       font-weight: 500;
+       letter-spacing: 1;
+}
+
+.n-power8 {
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 50px;
+}
+
+.n-power8 h1 {
+   color: #82b61a;
+   font-size: 30px;
+   letter-spacing: 1;
+   font-weight: 400;
+}
+
+.n-power8a span {
+   font-size: 15px;
+   color: #646161;
+   font-weight: bold;
+}
+
+.n-power8a {
+   margin-top: 40px!important;
+}
+
+.n-power8a p{
+   padding-top: 15px;
+   font-size: 14px;
+   color: #646161;
+   font-weight: 400;
+}
+
+.n-power9 {
+   background-color: #ebe2e2;
+   padding-bottom: 50px;
+   text-align: center;
+}
+
+.n-power9 h1 {
+   /* text-align:center; */
+   font-size: 35px;
+   padding-top: 35px;
+   letter-spacing: 1;
+   color: gray;
+}
+
+.n-power9bb {
+   text-align: justify;
+}
+/* N-POWER ENDS HERE */
+
+@media only screen and (max-width: 768px) {
+       .hid {display: none!important;  
+}
+}

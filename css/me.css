@@ -620,15 +620,12 @@
     margin-right: 0px; 
 } */
 
-.uni-pad {
-    margin-top: 60px;
-    /* border: 12px solid rgba(0, 0, 0, 0.3); */
-    padding-bottom: 0px!important;
-    margin-bottom: 0px!important;
-}
-
 .uni {
     background-image: url('../image/post.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: none;
+    background-color: black;
     /* background-position: 20% 80%; */
     padding-top: 30px;
     padding-bottom: 200px;
@@ -652,25 +649,36 @@
     color: white;
 }
 
+.uni-pad {
+    /* margin-top: 10px;*/
+    margin-top: 60px;
+    margin-bottom: 0px!important; 
+    padding: 10px 10px!important;
+    background-color:  rgba(0, 0, 0, 0.3);
+}
 .no-pad {
     margin-bottom: 0px!important;
+}
+
+.school-pad {
     padding-bottom: 0px!important;
+    margin-bottom: 0px!important;
 }
    
 .btn-uni {
     background-color: green;
     display: block;
     width: 100%!important;
-    border-radius: 8px;
-    border: 1px solid grey;
-    padding-left: 10px;
-    padding-top: 10px;
-    margin-bottom: 50px;
+    border-radius: 4px;
+    /* border: 1px solid grey; */
+    padding: 10px;
+    color: #fff!important;
+    /* margin-bottom: 50px; */
 }
 
 .uni-pad-1 {
-    padding-left: 0px!important;
-    padding-right: 0px!important;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
 }
 /* 
 .uni .fa {
@@ -965,7 +973,249 @@
         }
      /* jamb mock end here */
      
+     
+     /* login page starts here */
+     .loginn-sec {
+        background-color: rgb(248, 245, 245)!important;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .loginn-cont {
+        max-width: 470;
+        margin: auto;
+    }
+    .loginn-row {
+       background-color: white;
+       border-top: 6px solid #82b61a;
+       border-right: 1px dashed #e1e1e1;
+       border-left: 1px dashed #e1e1e1;
+   }
+
+    .loginn1 {
+        background-color: #82b61a;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .loginn2 h2 {
+        font-size: 18px;
+        font-family: public san sans-serif;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1;
+        padding-top: 20px;
+    }
+
+    .btn-fb {
+        color: white;
+        background-color:rgb(46, 106, 209); 
+        margin-left: 140px!important;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .loginn3 p {
+        font-size: 10px;
+        text-align: center;
+        color: rgb(175, 173, 173);
+    }
+   .loginn3 h3 {
+       border-radius: 50%;
+       width: 32px;
+       height: 32px;
+       padding: 5px;
+       background: #82b61a;
+       border: 2px solid #82b61a;
+       color: white;
+       text-align: center;
+       margin-left: 200px;
+       font-size: 15px;
+   }
+
+   .loginn3 span {
+       font-size: 12px;
+       font-weight: 400;
+       color: #222121;
+       margin-left: 40px;
+       margin-right: 40px;
+       margin-top: 10px;
+   }
+
+
+   .loginn-reg {
+       margin-left: 40px;
+       margin-right: 40px;
+   }
+
+   .btn-log-in {
+       color: white;
+       background-color: #82b61a;
+       text-align: center;
+       padding: 15px 150px;
+       font-weight: bold;
+       letter-spacing: 1;
+       margin-top: 10px;
+       margin-bottom: 30px;
+       margin-left: 40px;
+       margin-right: 30px;
+       /* border: 1px solid #82b61a; */
+   }
+
+   .loginn4 a {
+       font-size: 12px;
+       margin-left: 40px;
+       letter-spacing: 1;
+       color: #b8b8b8;
+       text-decoration: none;
+       font-weight: 400;
+   }
+   .loginn4 {
+       padding-bottom: 40px!important;
+   }
+
+   .regg {
+       border-left: 2px solid #e2e1e1;
+       padding-left: 22px;
+   }
+
+     /* login page ends here */
+
+     /* about us page starts here */
+
+     .abt-us1 {
+        background-color: #eceaea;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: none;
+        padding-bottom: 0px!important;
+        margin-bottom: 5px;
+
+     }
+     
+     .abt-us h1 {
+         color: white;
+         text-align: center;
+         background-color: #82b61a;
+         font-size: 25px;
+         padding-top: 40px;
+         padding-bottom: 40px;
+         letter-spacing: 1;
+         margin-bottom: 0px;
+     }
+
+
+     .abt-us1 h2 {
+         text-align: center;
+         font-size: 28px;
+         letter-spacing: 1;
+         padding: 60px 120px;
+         color: #646161;
+         font-weight: 300;
+         font-family: sans-serif;
+         margin-top: 0px!important;
+         padding-bottom: 5px!important;
+        
+     }
+
+     .logo-holder img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: -20px;
+     }
+
+     .logo-holder {
+         text-align: center;
+         /* background-color: rgb(255, 255, 255); */
+     }
+     .abt-uss {
+         margin-bottom: 30px;
+     }
+
+     .abt-us4 {
+         text-align: center;
+         /* margin: 10px 50px; */
+     }
+    .abt-us4 h3 {
+    font-size: 20px;
+    color: #add22f;
+    
+    }
+
+    .abt-us4 p {
+    font-size: 16px;
+    }
+
+    .abt-us4 span{
+        font-weight: bold;
+    }
+
+    .abt-us5 h1 {
+        font-size: 25px;
+        color: #add22f;
+    }
+
+    .abt-us5 h2 {
+        font-size: 14px;
+        font-weight: 500;
+        padding-bottom: 5px;
+        letter-spacing: 1;
+    }
+
+    .abt-us5 span {
+        font-size: 12px;
+    }
+.btn-submitt {
+    background-color: #98b831;
+    color: white;
+    padding: 10px 15px;
+
+}
+
+.btn-submitt:hover {
+    color: white;
+}
+
+.abbt {
+    background-color: #98b92b;
+}
+
+/* faqs page begins here */
+
+.faqs1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.faqs2 h2 {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.faqs2 p {
+    font-size: 15px;
+}
+
+.faqs2 ul {
+    list-style: none;
+    /* padding-top: 10px; */
+    font-size: 14px;
+}
+
+.faqs3 li {
+padding-top: 5px;
+text-align: justify
+}
+
+.faqqs .fa {
+    color: #8ca831;
+    font-size: 15px;
+}
+     /* about us page ends here */
+
+     
     @media only screen and (max-width: 768px) {
-            .hid {display: none!important; 
+            .hid {display: none!important;  
     }
 }
