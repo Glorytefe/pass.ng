@@ -194,6 +194,7 @@
    background-color: #ebe2e2;
    padding-bottom: 50px;
    text-align: center;
+   margin-bottom: 30px;
 }
 
 .n-power9 h1 {
@@ -206,6 +207,79 @@
 
 .n-power9bb {
    text-align: justify;
+   border: 1px solid white;
+   background-color: white;
+   padding: 50px 50px;
+   box-shadow: 0px 3px 12px -2px rgb(209, 209, 209);
+   margin-right: 0px!important;
+}
+
+.n-power-last {
+   /* padding: 150px 150px!important; */
+   padding-left: 100px;
+   background-color: #ebe2e2;
+}
+
+.n-powerrr {
+   background-image: url('../image/focal.jpg');
+   padding-top: 30px;
+   padding-bottom: 30px;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.last1 h1 {
+   font-size: 22px;
+   color: gray;
+   letter-spacing: 1;
+   font-weight: 500;
+}
+
+.last2a {
+   display: inline;
+}
+
+.btn-subscribe1 {
+   text-align: right!important;
+   margin-top: 0px!important;
+}
+
+.btn-subscribe {
+   /* position: relative; */
+   margin-top: -55px!important;
+   border: 1px solid green;
+   border-radius: 50px;
+   background-color: green;
+   color: white;
+   font-size: 13px;
+   letter-spacing: 3;
+   padding: 10px 20px;
+}
+.btn-subscribe:hover {
+   background-color: white!important;
+   color: black;
+   border: none;
+}
+
+.last3 li {
+   list-style: none;
+   display: inline!important;
+   padding-right: 0px!important;
+   
+}
+
+.last-ul {
+   margin-left: 80px;
+}
+
+.last3 .fa {
+   font-size: 25px;
+   color: grey;
+}
+
+.last3 h2 {
+   font-size: 15px;
+   padding-left: 40px;
 }
 /* N-POWER ENDS HERE */
 
